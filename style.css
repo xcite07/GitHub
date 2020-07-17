@@ -1,13 +1,14 @@
 body {
-   background-color: 999;
+   background-color: greenyellow;
     font-size: 20px;
 }
 
 .about {
     text-align: left;
-      
-    height: 100px;
-      
+     background-image: url(images/cat.jpg); 
+     width: 300px;
+     color: white;
+    font-family: verdana;
   
 }
 
@@ -15,4 +16,45 @@ h1, h2, .nav, h3 {
     color:
     #e64327;
     background-color: #4deb94;
+}
+
+
+h1, h2, .nav
+{
+    text-align: center;
+    
+}
+
+.video 
+{
+    text-align: center;
+}
+
+.Hobbies
+{
+    text-align: right;
+    font-family: verdana;
+}
+
+h1
+{
+  font-family: fantasy; 
+    
+}
+
+h2
+{
+    
+    font-family: cursive;
+}
+
+.nav
+{
+   font-family: arial; 
+    
+}
+
+ul, footer, .toplink, .languages
+{
+    text-align: center;
 }
