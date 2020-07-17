@@ -1,0 +1,18 @@
+body {
+   background-color: 999;
+    font-size: 20px;
+}
+
+.about {
+    text-align: left;
+      
+    height: 100px;
+      
+  
+}
+
+h1, h2, .nav, h3 {
+    color:
+    #e64327;
+    background-color: #4deb94;
+}
