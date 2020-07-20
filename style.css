@@ -42,6 +42,7 @@ h1, h2
 .video 
 {
     text-align: center;
+    color: white;
 }
 
 .Hobbies
@@ -49,7 +50,7 @@ h1, h2
    text-align: right;
     font-family: verdana;
      background-color: yellow;
- width: 25%;
+ width: 35%;
      float: right;
     border: 5px solid black;
       
