@@ -1,28 +1,42 @@
+
+
+#home 
+{
+    
+background-image: url(images/sumner-mahaffey-7Y0NshQLohk-unsplash.jpg);
+background-size: cover;
+    
+    
+}
+
+
+
 body {
-   background-color: greenyellow;
+   background-color: #dfe3d7;
     font-size: 20px;
 }
 
 .about {
     text-align: left;
-     background-image: url(images/cat.jpg); 
+      background-color: yellow;
      width: 300px;
-     color: white;
+  
+     color:black;
     font-family: verdana;
+   
+    
   
 }
 
-h1, h2, .nav, h3 {
-    color:
-    #e64327;
-    background-color: #4deb94;
+h1, h2, h3 {
+  
 }
 
 
-h1, h2, .nav
+h1, h2 
 {
     text-align: center;
-    
+    padding-top: 20px;
 }
 
 .video 
@@ -32,8 +46,13 @@ h1, h2, .nav
 
 .Hobbies
 {
-    text-align: right;
+   text-align: right;
     font-family: verdana;
+     background-color: yellow;
+ width: 25%;
+     float: right;
+      
+       
 }
 
 h1
@@ -48,13 +67,33 @@ h2
     font-family: cursive;
 }
 
+
+
+ 
 .nav
 {
-   font-family: arial; 
+   font-size: 30px; 
+   font-family: arial;
+  display: inline-block;
+    background-color: black;
+    height: 40px;
+   border: 2px solid white;
+    position: fixed;
+
+        
     
+    
+}
+
+ .nav a {
+    color: red;
+    text-decoration: none;
 }
 
 ul, footer, .toplink, .languages
 {
     text-align: center;
+   
 }
+
+
