@@ -56,9 +56,14 @@ h1, h2
 {
     display: flex;
     justify-content: space-between;
-    width: 1250px
+    
 }
 
+.videohobbies
+{
+    display: flex;
+    justify-content: space-between;
+}
 .Hobbies
 {
    text-align: right;
@@ -67,14 +72,12 @@ h1, h2
  width: 25%;
      float: right;
     border: 5px solid black;
-      
+}
        
-}
-#Hobbies {
-    width: 100%;
-  display: inline-block;  
-}
 
+.video2{
+    color: white
+}
 
 h1
 {
