@@ -9,7 +9,14 @@ background-size: cover;
     
 }
 
-
+.innerdiv {
+    border: 2px solid white;
+    background-color: black;
+    
+}
+#wrapper {
+    display: flex
+}
 
 body {
    background-color: #170a4e;
@@ -41,8 +48,15 @@ h1, h2
 
 .video 
 {
-    text-align: center;
+    text-align: right;
     color: white;
+    
+}
+.videoabout
+{
+    display: flex;
+    justify-content: space-between;
+    width: 1250px
 }
 
 .Hobbies
@@ -50,7 +64,7 @@ h1, h2
    text-align: right;
     font-family: verdana;
      background-color: yellow;
- width: 35%;
+ width: 25%;
      float: right;
     border: 5px solid black;
       
