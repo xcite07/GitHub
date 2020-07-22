@@ -1,11 +1,13 @@
-
+body {
+    background-image: url(images/background.png)
+}
 
 #home 
 {
     
 background-image: url(images/sumner-mahaffey-7Y0NshQLohk-unsplash.jpg);
 background-size: cover;
-    
+ text-shadow: 1px 2px 5px grey;   
     
 }
 
@@ -15,7 +17,8 @@ background-size: cover;
     
 }
 #wrapper {
-    display: flex
+    display: flex;
+    justify-content:flex-end;
 }
 
 body {
@@ -98,7 +101,7 @@ h2
 {
    font-size: 30px; 
    font-family: arial;
-  display: inline-block;
+  
     background-color: black;
     height: 40px;
    border-width: 2px solid white;
@@ -107,6 +110,21 @@ h2
         
     
     
+}
+
+.future {
+    color: darkgrey;
+    text-align: center;
+    display: block;
+    width: 800px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid #000000;
+    border-radius: 35px;
+    background-color:rgb(68, 36, 204);
+    font-family: monospace;
+    font-size: 1.2em;
 }
 
   a {
